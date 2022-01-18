@@ -105,7 +105,7 @@ To add an upstream, use the `rabbitmqctl set_parameter` command. It accepts thre
 * An upstream name that federation policies will refer to
 * An upstream definition JSON document with at least one mandatory key, `uri`
 
-The following example configures an upstream named "source" which can be contacted at <code>remote-host.local:5672</code>:
+The following example configures an upstream named "origin" which can be contacted at <code>remote-host.local:5672</code>:
 
 <pre class="lang-bash">
 # Adds a federation upstream named "origin"
